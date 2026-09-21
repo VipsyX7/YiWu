@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e59387ae0f7a6043899e84533ea36d9, type: 3}
+  m_Name: "Item_\u706B\u7130\u55B7\u5410"
+  m_EditorClassIdentifier: Klein::Klein.ItemDefinition
+  DisplayName: "\u706B\u7130\u55B7\u5410"
+  Kind: 0
+  Effect: 12
+  Pool: 0
+  Magnitude: 30
+  Color: {r: 1, g: 0.5, b: 0.2, a: 1}
+  IconSprite: {fileID: 0}
+  Description: "\u6D88\u8017 25 \u6CD5\u529B\uFF0C\u6247\u5F62\u55B7\u5C04"
+  ManaCost: 25
+  Cooldown: 2
+  SingleUse: 0

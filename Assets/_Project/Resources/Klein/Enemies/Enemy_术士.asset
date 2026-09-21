@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14a57d390c390e428f6d6fe07eea98e, type: 3}
+  m_Name: "Enemy_\u672F\u58EB"
+  m_EditorClassIdentifier: Klein::Klein.EnemyDefinition
+  Health: 35
+  MoveSpeed: 0
+  FireRate: 1.5
+  BulletSpeed: 6
+  Damage: 8
+  MaxInRoom: 4
+  DropTypes: 000000000100000002000000
+  DropCount: {x: 1, y: 1}
+  DropWeights:
+  - 35
+  - 30
+  - 35
+  MoveMode: 2
+  DisplayName: "\u672F\u58EB"
+  BodySprite: {fileID: 0}
+  BodyRadius: 0.42
+  IsBoss: 0
+  CostWeight: 2
+  PreferRange: 6
+  BodyColor: {r: 0.55, g: 0.4, b: 0.85, a: 1}
+  Shape: 1
+  ContactCooldown: 1
+  ContactRange: 0.9
+  WanderInterval: 1.5
+  IntermittentPattern: {x: 0.8, y: 0.8}

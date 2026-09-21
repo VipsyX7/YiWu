@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47df8e77e0bba4449b0a2d4c80a07ff4, type: 3}
+  m_Name: "Spell_\u5C04\u7EBF"
+  m_EditorClassIdentifier: Klein::Klein.SpellDefinition
+  DisplayName: "\u5C04\u7EBF"
+  Shape: 3
+  InnateElement: 0
+  Damage: 20
+  Cooldown: 0.8
+  Range: 8
+  Speed: 40
+  Radius: 0.2
+  Pierce: 0
+  Knockback: 0
+  ManaCost: 0
+  BarrierHealth: 30
+  BarrierDuration: 3
+  Color: {r: 0.95, g: 0.5, b: 1, a: 1}
+  ProjectileSprite: {fileID: 0}

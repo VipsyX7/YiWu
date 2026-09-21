@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e165f3b2d63bd3b4abf50c722e9e7a62, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Klein::Klein.GameConfig
+  MaxHealth: 100
+  MaxMana: 100
+  MoveSpeed: 5
+  AttackPower: 100
+  SpellCooldown: 100
+  Luck: 0
+  CastRange: 8
+  SpellSpeed: 12
+  PlayerRadius: 0.4
+  PlayerInvincibleTime: 0.5
+  PickupRadius: 0.8
+  PickupFlySpeed: 8
+  StartMoney: 0
+  PlayerKnockback: 2
+  PlayerKnockbackTime: 0.15
+  TerrainInitialCharges: 3
+  TerrainMaxCharges: 5
+  TerrainRechargeInterval: 5
+  ReactionCooldownFrames: 60
+  AreaTickInterval: 0.5
+  PickupMana: 10
+  PickupHealth: 15
+  PickupMoney: 5
+  FloorCount: 5
+  MinRoomsPerFloor: 10
+  MaxRoomsPerFloor: 14
+  RoomWidth: 15
+  RoomHeight: 9
+  WallThickness: 1
+  GridSize: 5
+  RoomClearTimeout: 90
+  RoomSpawnCap: 24
+  CameraSize: 7
+  CameraSmooth: 0.12
+  ShopPriceMin: 15
+  ShopPriceMax: 25
